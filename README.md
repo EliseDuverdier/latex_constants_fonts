@@ -1,2 +1,4 @@
 # latex_constants_fonts
-LaTeX package to use physical symbols, with a tweaked CMU font
+LaTeX package to use physical symbols, with a tweaked CMU font.
+
+Work in progress...
