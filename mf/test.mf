@@ -1,0 +1,38 @@
+font_size 10pt#;  % the "design size" of this font
+
+%%%%% grid %%%%%
+em#       := 10pt#;
+cap#      := 8pt#;
+ascender# := 9pt;
+
+define_pixels(em, cap);
+
+%%%%%% variables %%%%%%%%
+  % letter anatomy %
+width    = xheight = 2/3em;
+
+slant     = 0;
+
+  % drawing %
+pen_size     = .1em;
+pen_rotation = 25;
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+beginchar("c", 0.8em#, cap#, 0); "clight";
+    x3 = x1-(.3em * slant) = width;
+    x2 = .15em * slant;
+    y1 = xheight;
+    y3 = 0;
+    y2 = (y1+y2)/3;
+
+    pickup pencircle scaled 1.5pen_size;
+    drawdot z2;
+
+    pickup pencircle scaled pen_size rotated pen_rotation;
+    draw z1{up}..{down}z2{down}..{up}z3;
+
+    labels(range 1 thru 3);
+endchar;
+
+bye.
