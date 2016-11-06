@@ -23,6 +23,6 @@ c, G, h, \hbarre, m
 \pi, e, \omega, ...
 
 ## links
-[Symbols, units, nomenclature and fundamental constants in physics](http://iupap.org/wp-content/uploads/2014/05/A4.pdf)
-[How do I create a LaTeX package? - TeX stack exchange](http://tex.stackexchange.com/a/34176)
-[Using metafont-letters in LaTeX](http://tex.stackexchange.com/questions/197607/using-metafont-letters-in-latex)
+* [Symbols, units, nomenclature and fundamental constants in physics](http://iupap.org/wp-content/uploads/2014/05/A4.pdf)
+* [How do I create a LaTeX package? - TeX stack exchange](http://tex.stackexchange.com/a/34176)
+* [Using metafont-letters in LaTeX](http://tex.stackexchange.com/questions/197607/using-metafont-letters-in-latex)
