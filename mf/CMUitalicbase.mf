@@ -15,7 +15,7 @@
 
 mode_setup; font_setup;
 
-input CMU_italic_lower_letters;  % lower case (minuscules)
+input CMUitaliclowerletters;  % lower case (minuscules)
 %input italsp;  % lowercase specials (dotless \i, ligature \ae, etc.)
 if ligs>1: font_coding_scheme:="TeX text";
  spanish_shriek=oct"074"; spanish_query=oct"076";
@@ -34,7 +34,7 @@ else: font_normal_space 6u#+2letter_fit#;
  font_quad 18u#+4letter_fit#;
  font_extra_space 2u#; fi
 
-input CMU_uppercase_letters;  % upper case (majuscules)
+input CMUuppercaseletters;  % upper case (majuscules)
 %input greeku;  % upper case greek letters
 %input itald;  % numerals
 %input italp;  % ampersand, question marks, currency sign

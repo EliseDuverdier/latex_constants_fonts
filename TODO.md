@@ -1,11 +1,7 @@
 # Todo
 
- * Create TeX test file  
- *  
- *  
- *  
- *  
- *  
+ * Create TeX test file with .ttf font
+ * Create TeX test file with mf font
 
 # Doing
 

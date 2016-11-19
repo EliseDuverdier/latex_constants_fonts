@@ -7,7 +7,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-if unknown CMU_base: input CMU_base fi
+if unknown CMUbase: input CMUbase fi
 
 font_identifier:="CMTI"; font_size 7pt#;
 
@@ -80,4 +80,4 @@ variant_g:=true;    % should an italic-style g be used?
 low_asterisk:=false;    % should the asterisk be centered at the axis?
 math_fitting:=false;    % should math-mode spacing be used?
 
-generate CMU_italic_base      % switch to the driver file
+generate CMUitalicbase      % switch to the driver file
