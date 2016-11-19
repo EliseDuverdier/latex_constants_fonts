@@ -1,3 +1,5 @@
 Typo.const.pdf
+CMU_mf_sources/*
+!CMU_mf_sources/tests*
 *.log
 *.2602gf
